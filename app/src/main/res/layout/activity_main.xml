@@ -50,6 +50,7 @@
     <Button
         android:id="@+id/btConvert"
         android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="@android:dimen/notification_large_icon_width"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="convertir"></Button>

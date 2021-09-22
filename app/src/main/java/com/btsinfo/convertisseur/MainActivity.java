@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                     if (choixdevise1.equals(choixdevise2)) {
                         affiche += "Memes devises\n";
                     } else if (choixdevise1.equalsIgnoreCase("Euros")) {
-                        affiche += "Euros : " + etDev1.getText().toString() + "\n";
+                        affiche += "Euro : " + etDev1.getText().toString() + "\n";
                         if (choixdevise2.equalsIgnoreCase("Dollars")) {
                             affiche += "Dollars : " + (Math.round(d * 1.17 * 100.0) / 100.0) + "\n";
                         } else if (choixdevise2.equalsIgnoreCase("Livre")) {
@@ -91,14 +91,14 @@ public class MainActivity extends AppCompatActivity {
                     } else if (choixdevise1.equalsIgnoreCase("Dollars")) {
                         affiche += "Dolars : " + etDev1.getText().toString() + "\n";
                         if (choixdevise2.equalsIgnoreCase("Euros")) {
-                            affiche += "Euros : " + (Math.round(d * 0.85 * 100.0) / 100.0) + "\n";
+                            affiche += "Euro : " + (Math.round(d * 0.85 * 100.0) / 100.0) + "\n";
                         } else if (choixdevise2.equalsIgnoreCase("Livre")) {
                             affiche += "Livre : " + (Math.round(d * 0.73 * 100.0) / 100.0) + "\n";
                         }
                     } else if (choixdevise1.equalsIgnoreCase("Livre")) {
                         affiche += "Livre : " + etDev1.getText().toString() + "\n";
                         if (choixdevise2.equalsIgnoreCase("Euros")) {
-                            affiche += "Euros : " + (Math.round(d * 1.16 * 100.0) / 100.0) + "\n";
+                            affiche += "Euro : " + (Math.round(d * 1.16 * 100.0) / 100.0) + "\n";
                         } else if (choixdevise2.equalsIgnoreCase("Dollars")) {
                             affiche += "Dollars : " + (Math.round(d * 1.36 * 100.0) / 100.0) + "\n";
                         }
