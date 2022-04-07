@@ -9,4 +9,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#ecf1f1</color>
+    <color name="cloud">#B8EFEF</color>
+    <color name="cel">#8A8E8E</color>
 </resources>

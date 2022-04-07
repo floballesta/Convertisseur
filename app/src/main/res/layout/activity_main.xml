@@ -8,6 +8,7 @@
     android:fitsSystemWindows="true"
     tools:context=".MainActivity">
 
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,14 +19,17 @@
         android:textColor="@color/design_default_color_on_secondary"
         android:text="Convertisseur" />
 
-    <EditText
-        android:id="@+id/etDev1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_marginTop="60dp"
-        android:textAlignment="center"
-        android:inputType="numberDecimal"
-        android:hint="devise origine"></EditText>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etDev1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="devise origine"
+            android:inputType="numberDecimal"/>
+    </com.google.android.material.textfield.TextInputLayout>
 
     <LinearLayout
     android:layout_width="match_parent"

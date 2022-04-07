@@ -16,5 +16,10 @@
         <item name="android:background">@color/grey</item>
         <!-- Customize your theme here. -->
     </style>
-
+    <!--TextInputStyle -->
+    <style name="TextInputStyle.Hint" parent="TextAppearance.AppCompat">
+        <item name="colorAccent">@color/cel</item>
+        <item name="android:textColor">@color/cloud</item>
+        <item name="android:textSize">16sp</item>
+    </style>
 </resources>
